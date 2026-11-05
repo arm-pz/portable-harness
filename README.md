@@ -25,7 +25,7 @@ Every change is shown as a diff and needs your yes before it's written.
 
 ## Not for
 
-Reviewing code (`consistent-code-review`, which this skill points you to after the agent's next big change), writing features or fixing the type errors themselves (`production-code`), or turning a skill into a Claude Code plugin (`skill-to-mod`).
+Pruning or auditing a setup that already exists (`harness-audit`), reviewing code (`consistent-code-review`, which this skill points you to after the agent's next big change), writing features or fixing the type errors themselves (`production-code`), or turning a skill into a Claude Code plugin (`skill-to-mod`).
 
 ## Install
 
