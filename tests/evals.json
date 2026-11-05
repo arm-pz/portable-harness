@@ -1,0 +1,14 @@
+{
+  "skill_name": "portable-harness",
+  "evals": [
+    {"id": 1, "prompt": "Set up agent rules for this repo", "should_trigger": true},
+    {"id": 2, "prompt": "My CLAUDE.md is 900 lines and Claude still gets env vars wrong", "should_trigger": true},
+    {"id": 3, "prompt": "Make the type check fail only on new errors, we have 400 old ones", "should_trigger": true},
+    {"id": 4, "prompt": "Claude keeps hitting the real Stripe API when it runs tests", "should_trigger": true},
+    {"id": 5, "prompt": "I switch between Codex and Claude Code, I want the same setup in both", "should_trigger": true},
+    {"id": 6, "prompt": "Review what the agent just wrote", "should_trigger": false},
+    {"id": 7, "prompt": "Fix the failing type errors in src/", "should_trigger": false},
+    {"id": 8, "prompt": "Turn my skill into a Claude Code plugin with hooks", "should_trigger": false},
+    {"id": 9, "prompt": "Write a GitHub Actions workflow to publish my npm package", "should_trigger": false}
+  ]
+}

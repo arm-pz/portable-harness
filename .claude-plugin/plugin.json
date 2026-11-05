@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/plugin.schema.json",
+  "name": "portable-harness",
+  "version": "0.1.0",
+  "description": "Set up CLAUDE.md / AGENTS.md rules and CI guardrails so any coding agent behaves the same on your repo: 12 working rules, map sections where the agent goes wrong, a new-errors-only type check, opt-in live tests and a deploy gate.",
+  "author": {
+    "name": "arm-pz",
+    "url": "https://github.com/arm-pz"
+  },
+  "homepage": "https://skillsmith.tech/portable-harness/",
+  "repository": "https://github.com/arm-pz/portable-harness",
+  "keywords": ["claude-md", "agents-md", "agent-rules", "ci-guardrails", "agent-skills"],
+  "skills": "./skills/"
+}
